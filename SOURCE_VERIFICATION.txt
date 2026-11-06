@@ -1,0 +1,19 @@
+CAMPUSFLOW PROJECT SOURCE VERIFICATION
+--------------------------------------
+The following checks were performed in the file-building environment:
+- JavaScript server files: Node.js syntax checks PASS.
+- React JSX files: TypeScript transpile parser (JSX) PASS.
+- Server-side validation unit tests: 4 / 4 PASS.
+- Source archive ZIP integrity: tested after packaging.
+
+NOT FULLY VERIFIED IN THIS ENVIRONMENT:
+- npm install / production Vite build (external npm registry DNS unavailable).
+- Browser interaction and local MongoDB integration (npm packages and a running DB unavailable here).
+- GitHub repository creation/push (requires user's GitHub actions or access).
+- Vercel deployment and live API check (requires user's Vercel account and MongoDB Atlas settings).
+
+To verify on your laptop:
+1. Extract ZIP, run RUN_WINDOWS.cmd, and register a real account with MongoDB running.
+2. Run TEST_API_WINDOWS.cmd while server is open. Inspect PASS lines for real CRUD.
+3. Run npm run build and npm test in CMD.
+4. Connect GitHub + Vercel and verify /api/health on deployed URL.

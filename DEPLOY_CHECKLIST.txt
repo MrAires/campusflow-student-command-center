@@ -1,0 +1,23 @@
+CAMPUSFLOW - FINAL WAF SUBMISSION CHECKLIST (2024006675)
+
+[ ] 1. MongoDB Server is running locally, or use Atlas .env URI.
+[ ] 2. Double-click RUN_WINDOWS.cmd; page opens in browser.
+[ ] 3. Register account (not just preview) and test CREATE/READ/UPDATE/DELETE tasks.
+[ ] 4. Test CREATE/READ/UPDATE/DELETE for courses.
+[ ] 5. Show dashboard, Kanban drag-and-drop, Insights, focus timer, mobile view.
+[ ] 6. Screenshots: dashboard, task board, task modal, course list, insights.
+[ ] 7. Verify MongoDB collections in mongosh / Atlas.
+[ ] 8. Create EMPTY repo at github.com/new (MrAires).
+[ ] 9. Run PUSH_TO_GITHUB.cmd. Verify .env absent from GitHub.
+[ ] 10. Create MongoDB Atlas cluster and database user.
+[ ] 11. On Vercel import GitHub repo; set MONGODB_URI, MONGODB_DB, JWT_SECRET.
+[ ] 12. Check https://YOUR-PROJECT.vercel.app/api/health shows database connected.
+[ ] 13. Register and perform CRUD on live website. Test mobile.
+[ ] 14. Add real GitHub and Vercel URLs to README + submission.
+
+Repository: https://github.com/MrAires/campusflow-student-command-center
+(The link works only after you create and push that repository.)
+
+Live application: [fill in your actual .vercel.app URL after deployment]
+
+Important: Preview mode is not MongoDB persistence. Demonstrate backend CRUD with a registered account.

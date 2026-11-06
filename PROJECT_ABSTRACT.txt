@@ -1,0 +1,26 @@
+WEB APPLICATION FRAMEWORKS - FULL STACK PROJECT
+Project Title: CAMPUSFLOW - Student Productivity and Academic Management System
+Name: Ksheeraj Ram Reddy
+Registration Number: 2024006675
+
+PROBLEM STATEMENT
+Students often manage subjects, tasks, due dates and study sessions across disconnected tools. This results in missed deadlines, poor visibility into academic progress and inconsistent study habits.
+
+SOLUTION
+CampusFlow centralizes courses, assignments, deadlines and personal progress. Its ReactJS responsive interface connects to ExpressJS REST endpoints, backed by MongoDB persistent collections. Students create an account, organize courses, manage tasks with CRUD operations, drag tasks between Kanban columns, analyze completion patterns and manage focus sessions.
+
+OBJECTIVES
+1. Develop responsive UI with HTML5, CSS3, JavaScript and ReactJS.
+2. Design RESTful services with NodeJS and ExpressJS.
+3. Demonstrate secure, per-user MongoDB CRUD for courses and tasks.
+4. Publish source code on GitHub and deploy React/Express on Vercel with MongoDB Atlas.
+5. Demonstrate effective UI design, status tracking and learning analytics.
+
+MODULES
+Authentication | Dashboard | Task Board | Course Management | Insights | Focus Timer
+
+DATABASE
+MongoDB collections: users, tasks, courses. MongoDB ObjectIds, bcrypt password hashes, user-scoped records.
+
+EXPECTED RESULT
+The completed application allows registered students to persistently create, read, edit and delete course/task records, inspect their academic dashboard, and access a responsive interface on mobile and desktop.
